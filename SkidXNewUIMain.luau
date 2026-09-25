@@ -124,7 +124,7 @@ task.spawn(function()
     local v37 = v14 .. "/Images/SkidXLogo_Top.png"
     if not (isfile and isfile(v37)) then
         pcall(function()
-            v18(v37, game:HttpGet("https://raw.githubusercontent.com/chromex1/chromex/main/logo_top_whitescale.png"))
+            v18(v37, game:HttpGet("https://files.catbox.moe/yed08k.png"))
         end)
     end
     v33 = v20(v37)
@@ -132,7 +132,7 @@ task.spawn(function()
     local v38 = v14 .. "/Images/SkidXLogo_Bottom.png"
     if not (isfile and isfile(v38)) then
         pcall(function()
-            v18(v38, game:HttpGet("https://raw.githubusercontent.com/chromex1/chromex/main/logo_bottom_whitescale.png"))
+            v18(v38, game:HttpGet("https://files.catbox.moe/yed08k.png"))
         end)
     end
     v34 = v20(v38)
@@ -140,7 +140,7 @@ task.spawn(function()
     local v39 = v14 .. "/Images/SkidXDiscord_Whitescale.png"
     if not (isfile and isfile(v39)) then
         pcall(function()
-            v18(v39, game:HttpGet("https://raw.githubusercontent.com/chromex1/chromex/main/discord_whitescale.png"))
+            v18(v39, game:HttpGet("https://files.catbox.moe/yed08k.png"))
         end)
     end
     v35 = v20(v39)
